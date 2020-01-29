@@ -1,9 +1,8 @@
 import React, {Component, Fragment} from 'react';
 import './App.css';
 
-class App extends Component{
+class Ch02 extends Component{
 
-  
   render(){
 
     const text = "리액트 테스트 안녕!";
@@ -13,13 +12,11 @@ class App extends Component{
       border: '1px solid black',
       height: Math.round(Math.random() * 300) + 50,
       width: Math.round(Math.random() * 300) + 50,
-      webkitTransition: 'all',
       MozTransition: 'all',
       msTransition: 'all'
     }
       
     return (
-
       <Fragment> {/*React v16 이상부터 사용 */}
         <h1 className="blueTxt">test</h1>
         <h2 className="blueTxt">{text}</h2>
@@ -33,4 +30,4 @@ class App extends Component{
   
 }
 
-export default App;
+export default Ch02;
