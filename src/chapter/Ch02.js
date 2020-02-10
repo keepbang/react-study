@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import './App.css';
+import '../App.css';
 
 class Ch02 extends Component{
 
